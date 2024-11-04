@@ -21,8 +21,8 @@ global.devs = "https://t.me/EmmyHenz";
 global.sudo = process.env.SUDO || "";
 global.owner = process.env.OWNER_NUMBER || "https://t.me/EmmyHenz";
 global.style = process.env.STYLE || "3";
-global.gdbye = process.env.GOODBYE || "false";
-global.wlcm = process.env.WELCOME || "false";
+global.gdbye = process.env.GOODBYE || "true";
+global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
@@ -45,7 +45,7 @@ global.SESSION_ID =
   ""
 module.exports = {
   menu: process.env.MENU || "3",
-  HANDLERS: process.env.PREFIX || "+",
+  HANDLERS: process.env.PREFIX || "+,$,@"
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "3.0.0",
   caption: process.env.CAPTION || "`EMMY_HENZ-V3™`",
